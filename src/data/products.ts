@@ -1,0 +1,58 @@
+import type { Product } from '@/types/product';
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: 'Sample Product 1',
+    systemName: 'SAMPLE-SYSTEM-001',
+    mrp: 250,
+    image: '/products/sample-product-01.svg',
+    category: 'Personal Care',
+    size: '100 ml',
+  },
+  {
+    id: 2,
+    name: 'Sample Product 2',
+    systemName: 'SAMPLE-SYSTEM-002',
+    mrp: 180,
+    image: '/products/sample-product-02.svg',
+    category: 'Home Care',
+    size: '500 ml',
+  },
+  {
+    id: 3,
+    name: 'Sample Product 3',
+    systemName: 'SAMPLE-SYSTEM-003',
+    mrp: 320,
+    image: '/products/sample-product-03.svg',
+    category: 'Beauty',
+    size: '75 g',
+  },
+  {
+    id: 4,
+    name: 'Sample Product 4',
+    systemName: 'SAMPLE-SYSTEM-004',
+    mrp: 99,
+    image: '/products/sample-product-04.svg',
+    category: 'Foods',
+    size: '200 g',
+  },
+  {
+    id: 5,
+    name: 'Sample Product 5',
+    systemName: 'SAMPLE-SYSTEM-005',
+    mrp: 275,
+    image: '/products/sample-product-05.svg',
+    category: 'Personal Care',
+    size: '250 ml',
+  },
+    {
+    id: 5,
+    name: 'Sunlight Yellow',
+    systemName: 'SUNLIGHT YELLOW 110GXX',
+    mrp: 160,
+    image: '/products/sunlight_yellow.webp',
+    category: 'Personal Care',
+    size: '110 g',
+  },
+];
